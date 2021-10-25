@@ -17,6 +17,7 @@
 #### change Jenkins pipeline with incorrect docker or artifactory settings. Ensure pipeline failed for that reason and NO artifact is published
 
 ## Run docker image and access application
+#### Build image: docker build -t test-petclinic10_24_21 .
 #### Save image: docker save -o george_petclinic.tar 4c43ecfff1c4
 #### Load image:docker load --input george_petclinic.tar
 #### List images: docker images -a
